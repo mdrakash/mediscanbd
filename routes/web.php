@@ -9,3 +9,8 @@ Route::get('/', function () {
 
 Route::get('/auth/google', [GoogleController::class, 'redirect']);
 Route::get('/auth/google/callback', [GoogleController::class, 'callback']);
+
+// SPA fallback route for Vue
+Route::get('/{any}', function () {
+    return view('app');
+})->where('any', '.*');

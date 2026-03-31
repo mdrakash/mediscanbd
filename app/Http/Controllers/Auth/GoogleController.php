@@ -49,7 +49,9 @@ class GoogleController extends Controller
                 'email' => $user->email,
                 'avatar' => $user->avatar,
             ])));
-        } catch (\Exception $e) {
+        } catch (Throwable $th) {
+            report($th);
+
             return redirect(env('APP_FRONTEND_URL').'/auth/callback?error=auth_failed');
         }
     }

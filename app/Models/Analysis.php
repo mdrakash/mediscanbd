@@ -2,6 +2,9 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
 class Analysis extends Model
 {
     protected $fillable = [
@@ -19,7 +22,7 @@ class Analysis extends Model
         'raw_response',
         'language',
         'status',
-        'error_message'
+        'error_message',
     ];
 
     protected function casts(): array
@@ -41,3 +44,4 @@ class Analysis extends Model
     {
         return $this->belongsTo(Upload::class);
     }
+}

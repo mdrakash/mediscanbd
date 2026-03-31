@@ -2,6 +2,12 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Support\Facades\Storage;
+
 class Upload extends Model
 {
     protected $fillable = [
@@ -11,7 +17,7 @@ class Upload extends Model
         'storage_path',
         'mime_type',
         'file_size',
-        'language'
+        'language',
     ];
 
     protected function casts(): array
@@ -38,3 +44,4 @@ class Upload extends Model
             get: fn () => Storage::url($this->storage_path),
         );
     }
+}

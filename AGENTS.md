@@ -38,7 +38,7 @@ app/
 └── Models/                  → User.php, Upload.php, Analysis.php
 
 ## Database Tables
-users: id, name, email, google_id, avatar, timestamps
+users: id, name, email, password, google_id, avatar, timestamps
 uploads: id, user_id, type(prescription|test_report), original_filename,
          storage_path, mime_type, file_size, language(bn|en), timestamps
 analyses: id, upload_id, user_id, medicines(JSON), parameters(JSON),
@@ -46,6 +46,8 @@ analyses: id, upload_id, user_id, medicines(JSON), parameters(JSON),
           language, report_type, raw_response, timestamps
 
 ## API Endpoints
+POST   /api/register         → user registration
+POST   /api/login            → user login
 POST   /api/analyze          → upload & analyze
 GET    /api/history          → paginated list
 GET    /api/analyses/{id}    → single analysis
