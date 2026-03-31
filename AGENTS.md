@@ -25,6 +25,9 @@ Doctor prescription ও test report upload করা যাবে, OpenAI GPT-4o
 resources/js/
 ├── pages/          → Vue page components
 ├── components/     → Reusable components
+│   ├── analysis/   → MedicineCard, ParameterRow, CollapsibleSection, etc.
+│   ├── common/     → LoadingSpinner, ToastNotification, AnalyzingOverlay
+│   └── upload/     → TypeSelector, FileDropzone
 ├── stores/         → Pinia stores (auth.js, analysis.js, language.js)
 ├── composables/    → useApi.js, useToast.js, useRelativeTime.js
 ├── router/         → index.js
@@ -62,12 +65,12 @@ GET    /auth/google/callback → OAuth callback
 ✅ SESSION 02 — Database & Models
 ✅ SESSION 03 — Google OAuth
 ✅ SESSION 04 — OpenAI Service
-🔄 SESSION 05 — File Upload API  ← CURRENT
-⬜ SESSION 06 — Routes & Polish
-⬜ SESSION 07 — Vue Setup
-⬜ SESSION 08 — Auth Pages
-⬜ SESSION 09 — Upload Page
-⬜ SESSION 10 — Result Page
-⬜ SESSION 11 — History Page
+✅ SESSION 05 — File Upload API
+✅ SESSION 06 — Routes & Polish
+✅ SESSION 07 — Vue Setup
+✅ SESSION 08 — Auth Pages
+✅ SESSION 09 — Upload Page
+✅ SESSION 10 — Result Page  ← COMPLETED
+🔄 SESSION 11 — History Page  ← NEXT
 ⬜ SESSION 12 — UI Polish
 ⬜ SESSION 13 — Deploy Config

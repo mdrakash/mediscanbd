@@ -82,8 +82,8 @@ class OpenAIService
       "purpose": "এই রোগীর সমস্যা অনুযায়ী এই ওষুধ কী কাজ করে — বাংলাদেশের প্রেক্ষাপটে ব্যাখ্যা করো",
       "bd_brands": ["বাংলাদেশে পাওয়া যায় এমন brand নাম"],
       "instructions": "খাওয়ার নিয়ম",
-      "side_effects": ["পার্শ্বপ্রতিক্রিয়া ১", "পার্শ্বপ্রতিক্রিয়া ২"],
-      "warnings": "বিশেষ সতর্কতা",
+      "side_effects": ["সম্ভাব্য পার্শ্বপ্রতিক্রিয়া ১", "পার্শ্বপ্রতিক্রিয়া ২"],
+      "warnings": ["সতর্কতা ১", "সতর্কতা ২"],
       "price_range": "আনুমানিক দাম বাংলাদেশে (যদি জানা থাকে)"
     }
   ],
@@ -114,7 +114,7 @@ Analyze this prescription image and respond ONLY with valid JSON. No other text.
       \"bd_brands\": [\"Available brands in Bangladesh\"],
       \"instructions\": \"e.g. Take after meals with water\",
       \"side_effects\": [\"Common side effect 1\", \"side effect 2\"],
-      \"warnings\": \"Special warnings if any\",
+      \"warnings\": [\"Warning 1\", \"Warning 2 if any\"],
       \"price_range\": \"Approximate price in Bangladesh if known\"
     }
   ],

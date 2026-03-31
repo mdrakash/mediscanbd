@@ -89,11 +89,12 @@ export const useAuthStore = defineStore('auth', () => {
       token.value = storedToken
 
       // Try to use cached user data first
-      if (storedUser) {
+      if (storedUser && storedUser !== 'undefined') {
         try {
           user.value = JSON.parse(storedUser)
         } catch (err) {
           console.error('Error parsing stored user:', err)
+          localStorage.removeItem('mediscan_user')
         }
       }
 
