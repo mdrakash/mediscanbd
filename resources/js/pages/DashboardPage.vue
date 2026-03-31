@@ -106,9 +106,8 @@ onMounted(() => {
         </div>
         
         <div>
-          <p class="text-teal-100 text-sm">{{ t('dashboard.greeting') }}</p>
           <h1 class="text-2xl font-bold">
-            {{ t('dashboard.welcome') }}, {{ userName }}!
+            {{ t('dashboard.greeting') }}, {{ userName }}!
           </h1>
           <p class="text-teal-100 text-sm mt-1">{{ t('app.tagline') }}</p>
         </div>

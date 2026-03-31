@@ -102,12 +102,27 @@
   "history": {
     "title": "পূর্ববর্তী বিশ্লেষণ",
     "empty": "এখনো কোনো বিশ্লেষণ নেই",
-    "upload_first": "প্রথমে একটি ডকুমেন্ট আপলোড করুন",
-    "total_analyses": "মোট বিশ্লেষণ"
+    "empty_desc": "আপনি এখনো কোনো ডকুমেন্ট বিশ্লেষণ করেননি",
+    "upload_first": "প্রথম বিশ্লেষণ করুন",
+    "total_analyses": "মোট বিশ্লেষণ",
+    "filter_all": "সব",
+    "filter_prescription": "প্রেসক্রিপশন",
+    "filter_test_report": "টেস্ট রিপোর্ট",
+    "medicines": "{count}টি ওষুধ",
+    "view_details": "দেখুন →",
+    "delete_analysis": "মুছে ফেলুন",
+    "delete_confirm_title": "বিশ্লেষণ মুছবেন?",
+    "delete_confirm_msg": "এই বিশ্লেষণটি স্থায়ীভাবে মুছে ফেলা হবে। এই কাজটি পূর্বাবস্থায় ফিরিয়ে আনা যাবে না।",
+    "deleted_success": "বিশ্লেষণ মুছে ফেলা হয়েছে",
+    "delete_failed": "মুছতে ব্যর্থ হয়েছে",
+    "previous": "আগের পাতা",
+    "next": "পরের পাতা",
+    "showing": "{from}-{to} দেখাচ্ছে, মোট {total}টি",
+    "page": "পাতা {page}"
   },
   "dashboard": {
     "welcome": "স্বাগতম",
-    "greeting": "শুভ দিন",
+    "greeting": "স্বাগতম",
     "stats_title": "আপনার পরিসংখ্যান",
     "total_analyses": "মোট বিশ্লেষণ",
     "total_prescriptions": "প্রেসক্রিপশন",
@@ -169,5 +184,10 @@
     "upload": "আপলোড",
     "history": "ইতিহাস",
     "profile": "প্রোফাইল"
+  },
+  "notFound": {
+    "title": "পৃষ্ঠা খুঁজে পাওয়া যায়নি",
+    "description": "দুঃখিত, আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই বা সরানো হয়েছে।",
+    "back_home": "Dashboard এ ফিরুন"
   }
 }

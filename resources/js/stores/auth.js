@@ -64,8 +64,8 @@ export const useAuthStore = defineStore('auth', () => {
       error.value = null
 
       const response = await api.me()
-      user.value = response.data.data
-      localStorage.setItem('mediscan_user', JSON.stringify(response.data.data))
+      user.value = response.data.data || response.data
+      localStorage.setItem('mediscan_user', JSON.stringify(user.value))
 
       return user.value
     } catch (err) {

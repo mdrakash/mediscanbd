@@ -102,12 +102,27 @@
   "history": {
     "title": "Analysis History",
     "empty": "No analyses yet",
-    "upload_first": "Upload your first document",
-    "total_analyses": "Total Analyses"
+    "empty_desc": "You haven't analyzed any documents yet",
+    "upload_first": "Start First Analysis",
+    "total_analyses": "Total Analyses",
+    "filter_all": "All",
+    "filter_prescription": "Prescription",
+    "filter_test_report": "Test Report",
+    "medicines": "{count} medicines",
+    "view_details": "View →",
+    "delete_analysis": "Delete",
+    "delete_confirm_title": "Delete Analysis?",
+    "delete_confirm_msg": "This analysis will be permanently deleted. This action cannot be undone.",
+    "deleted_success": "Analysis deleted successfully",
+    "delete_failed": "Failed to delete",
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing {from}-{to} of {total}",
+    "page": "Page {page}"
   },
   "dashboard": {
     "welcome": "Welcome",
-    "greeting": "Good day",
+    "greeting": "Welcome",
     "stats_title": "Your Statistics",
     "total_analyses": "Total Analyses",
     "total_prescriptions": "Prescriptions",
@@ -169,5 +184,10 @@
     "upload": "Upload",
     "history": "History",
     "profile": "Profile"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been moved.",
+    "back_home": "Back to Dashboard"
   }
 }

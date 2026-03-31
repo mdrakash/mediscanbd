@@ -105,11 +105,19 @@ class AnalysisController extends Controller
     // GET /api/history
     public function index(Request $request)
     {
-        $analyses = Auth::user()
+        $query = Auth::user()
             ->analyses()
             ->with(['upload'])
-            ->latest()
-            ->paginate(10);
+            ->latest();
+
+        // Filter by type if provided
+        if ($request->has('type') && in_array($request->type, ['prescription', 'test_report'])) {
+            $query->whereHas('upload', function ($q) use ($request) {
+                $q->where('type', $request->type);
+            });
+        }
+
+        $analyses = $query->paginate(10);
 
         return AnalysisResource::collection($analyses);
     }
