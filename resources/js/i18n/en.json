@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "MediScan BD",
+    "tagline": "Your Digital Healthcare Companion"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "google_login": "Login with Google",
+    "login_desc": "Securely login with your Google account",
+    "welcome": "Welcome"
+  },
+  "login": {
+    "secure_login": "Secure Login",
+    "privacy_title": "Your Data is Protected",
+    "privacy_note": "We keep your personal information and medical documents completely confidential and secure. No information is shared without your permission.",
+    "feature1_title": "Prescription Analysis",
+    "feature1_desc": "Understand doctor's prescriptions in simple language",
+    "feature2_title": "Test Report Explanation",
+    "feature2_desc": "Easily understand medical test reports",
+    "feature3_title": "Bangla & English Support",
+    "feature3_desc": "Use in your preferred language",
+    "feature4_title": "AI-powered Analysis",
+    "feature4_desc": "Accurate information with advanced AI"
+  },
+  "upload": {
+    "title": "Upload Document",
+    "prescription": "Prescription",
+    "test_report": "Test Report",
+    "drag_drop": "Drag & drop your image here",
+    "or_click": "or click to browse",
+    "supported": "Supported formats: JPG, PNG, WEBP (max 10MB)",
+    "analyze_btn": "Analyze",
+    "analyzing": "Analyzing...",
+    "select_type": "Select document type",
+    "select_language": "Select language",
+    "bangla": "Bangla",
+    "english": "English"
+  },
+  "analysis": {
+    "medicines": "Medicines List",
+    "medicine_detail": "Medicine Details",
+    "purpose": "Purpose",
+    "dosage": "Dosage",
+    "frequency": "Frequency",
+    "duration": "Duration",
+    "instructions": "Instructions",
+    "side_effects": "Side Effects",
+    "warnings": "Warnings",
+    "bd_brands": "Available in Bangladesh",
+    "test_summary": "Test Summary",
+    "parameters": "Test Parameters",
+    "normal": "Normal",
+    "high": "High",
+    "low": "Low",
+    "critical": "Critical",
+    "advice": "Advice",
+    "next_steps": "Next Steps",
+    "foods_to_eat": "Foods to Eat",
+    "foods_to_avoid": "Foods to Avoid",
+    "when_doctor": "When to See Doctor",
+    "tests_advised": "Recommended Tests",
+    "disclaimer": "Disclaimer",
+    "disclaimer_text": "This analysis is provided for informational purposes only. Always consult a licensed healthcare professional before taking any medication or starting treatment.",
+    "new_analysis": "New Analysis",
+    "share": "Share",
+    "download": "Download"
+  },
+  "history": {
+    "title": "Analysis History",
+    "empty": "No analyses yet",
+    "upload_first": "Upload your first document",
+    "total_analyses": "Total Analyses"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "recent_analyses": "Recent Analyses",
+    "quick_upload": "Quick Upload",
+    "view_all_history": "View All History"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "delete": "Delete",
+    "back": "Back",
+    "view": "View",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "name": "Name",
+    "value": "Value",
+    "status": "Status",
+    "date": "Date",
+    "type": "Type",
+    "processing": "Processing",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "errors": {
+    "file_too_large": "File size must not exceed 10MB",
+    "invalid_file": "Only JPG, PNG, WEBP formats are supported",
+    "network_error": "Network error. Please try again.",
+    "analysis_failed": "Analysis failed. Please try again.",
+    "not_found": "Not found",
+    "unauthorized": "Unauthorized",
+    "server_error": "Server error occurred",
+    "validation_error": "Please provide valid information"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Upload",
+    "history": "History",
+    "profile": "Profile"
+  }
+}
