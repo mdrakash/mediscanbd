@@ -25,17 +25,23 @@
   },
   "upload": {
     "title": "ডকুমেন্ট আপলোড করুন",
+    "subtitle": "আপনার প্রেসক্রিপশন বা টেস্ট রিপোর্ট আপলোড করুন এবং AI বিশ্লেষণ পান",
     "prescription": "প্রেসক্রিপশন",
+    "prescription_desc": "ডাক্তারের প্রেসক্রিপশন আপলোড করুন",
     "test_report": "টেস্ট রিপোর্ট",
+    "test_report_desc": "রক্ত পরীক্ষা বা অন্য রিপোর্ট আপলোড করুন",
     "drag_drop": "এখানে ছবি টেনে আনুন",
-    "or_click": "অথবা ক্লিক করুন",
+    "or_click": "অথবা ক্লিক করে সিলেক্ট করুন",
     "supported": "সাপোর্টেড ফরম্যাট: JPG, PNG, WEBP (সর্বোচ্চ ১০MB)",
     "analyze_btn": "বিশ্লেষণ করুন",
     "analyzing": "বিশ্লেষণ করা হচ্ছে...",
     "select_type": "ডকুমেন্টের ধরন বেছে নিন",
-    "select_language": "ভাষা বেছে নিন",
+    "select_language": "AI এর উত্তরের ভাষা",
+    "language_note": "Bangla select করলে AI বাংলায় উত্তর দেবে",
     "bangla": "বাংলা",
-    "english": "English"
+    "english": "English",
+    "remove_file": "ফাইল সরান",
+    "file_size": "ফাইলের আকার"
   },
   "analysis": {
     "medicines": "ওষুধের তালিকা",
@@ -74,9 +80,25 @@
   },
   "dashboard": {
     "welcome": "স্বাগতম",
+    "greeting": "শুভ দিন",
+    "stats_title": "আপনার পরিসংখ্যান",
+    "total_analyses": "মোট বিশ্লেষণ",
+    "total_prescriptions": "প্রেসক্রিপশন",
+    "total_reports": "টেস্ট রিপোর্ট",
     "recent_analyses": "সাম্প্রতিক বিশ্লেষণ",
     "quick_upload": "দ্রুত আপলোড",
-    "view_all_history": "সব ইতিহাস দেখুন"
+    "upload_prescription": "প্রেসক্রিপশন আপলোড",
+    "upload_test_report": "টেস্ট রিপোর্ট আপলোড",
+    "view_all_history": "সব ইতিহাস দেখুন",
+    "no_analyses_yet": "এখনো কোনো বিশ্লেষণ নেই",
+    "start_first_analysis": "আপনার প্রথম ডকুমেন্ট আপলোড করুন"
+  },
+  "analyzing": {
+    "title": "বিশ্লেষণ চলছে",
+    "processing_image": "ছবি প্রক্রিয়া করা হচ্ছে...",
+    "ai_analyzing": "AI বিশ্লেষণ চলছে...",
+    "preparing_results": "ফলাফল প্রস্তুত হচ্ছে...",
+    "please_wait": "এটি কিছুটা সময় নিতে পারে"
   },
   "common": {
     "loading": "লোড হচ্ছে...",
@@ -109,7 +131,9 @@
     "not_found": "পাওয়া যায়নি",
     "unauthorized": "অনুমোদিত নয়",
     "server_error": "সার্ভার সমস্যা হয়েছে",
-    "validation_error": "সঠিক তথ্য দিন"
+    "validation_error": "সঠিক তথ্য দিন",
+    "select_type_first": "প্রথমে ডকুমেন্টের ধরন বেছে নিন",
+    "select_file_first": "প্রথমে একটি ফাইল সিলেক্ট করুন"
   },
   "nav": {
     "dashboard": "ড্যাশবোর্ড",

@@ -25,17 +25,23 @@
   },
   "upload": {
     "title": "Upload Document",
+    "subtitle": "Upload your prescription or test report and get AI analysis",
     "prescription": "Prescription",
+    "prescription_desc": "Upload doctor's prescription",
     "test_report": "Test Report",
+    "test_report_desc": "Upload blood test or other reports",
     "drag_drop": "Drag & drop your image here",
     "or_click": "or click to browse",
     "supported": "Supported formats: JPG, PNG, WEBP (max 10MB)",
     "analyze_btn": "Analyze",
     "analyzing": "Analyzing...",
     "select_type": "Select document type",
-    "select_language": "Select language",
+    "select_language": "AI response language",
+    "language_note": "Select Bangla for AI to respond in Bengali",
     "bangla": "Bangla",
-    "english": "English"
+    "english": "English",
+    "remove_file": "Remove file",
+    "file_size": "File size"
   },
   "analysis": {
     "medicines": "Medicines List",
@@ -74,9 +80,25 @@
   },
   "dashboard": {
     "welcome": "Welcome",
+    "greeting": "Good day",
+    "stats_title": "Your Statistics",
+    "total_analyses": "Total Analyses",
+    "total_prescriptions": "Prescriptions",
+    "total_reports": "Test Reports",
     "recent_analyses": "Recent Analyses",
     "quick_upload": "Quick Upload",
-    "view_all_history": "View All History"
+    "upload_prescription": "Upload Prescription",
+    "upload_test_report": "Upload Test Report",
+    "view_all_history": "View All History",
+    "no_analyses_yet": "No analyses yet",
+    "start_first_analysis": "Upload your first document to get started"
+  },
+  "analyzing": {
+    "title": "Analyzing",
+    "processing_image": "Processing image...",
+    "ai_analyzing": "AI analyzing...",
+    "preparing_results": "Preparing results...",
+    "please_wait": "This may take a moment"
   },
   "common": {
     "loading": "Loading...",
@@ -109,7 +131,9 @@
     "not_found": "Not found",
     "unauthorized": "Unauthorized",
     "server_error": "Server error occurred",
-    "validation_error": "Please provide valid information"
+    "validation_error": "Please provide valid information",
+    "select_type_first": "Please select document type first",
+    "select_file_first": "Please select a file first"
   },
   "nav": {
     "dashboard": "Dashboard",
